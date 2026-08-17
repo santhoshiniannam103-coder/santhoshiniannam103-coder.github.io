@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annam Santhoshini | Data Analyst</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            padding: 10px 18px;
+            margin: 5px;
+            border-radius: 6px;
+        }
+
+        .buttons a:hover {
+            background: white;
+            color: #14213d;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #14213d;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 55px 20px;
+        }
+
+        section h2 {
+            color: #14213d;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .project h3 {
+            color: #14213d;
+            margin-bottom: 10px;
+        }
+
+        .project ul {
+            margin-left: 20px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            color: #14213d;
+            font-weight: bold;
+        }
+
+        .education-item,
+        .certificate {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #14213d;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #14213d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 6px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Annam Santhoshini</h1>
+    <p>Aspiring Data Analyst</p>
+    <p>Python | SQL | Excel | Power BI</p>
+
+    <div class="buttons">
+        <a href="https://www.linkedin.com/in/santhoshini-annam-a68b85301" target="_blank">LinkedIn</a>
+        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">GitHub</a>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a B.Tech Computer Science graduate with a strong interest in
+        Data Analytics. I enjoy working with data to identify patterns,
+        generate insights, and support data-driven decision making.
+        I have hands-on experience with Python, SQL, Excel, Power BI,
+        Pandas, NumPy, and machine learning.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill">
+            <strong>Programming</strong>
+            <p>Python, Pandas, NumPy</p>
+        </div>
+
+        <div class="skill">
+            <strong>Database</strong>
+            <p>SQL</p>
+        </div>
+
+        <div class="skill">
+            <strong>Excel</strong>
+            <p>Pivot Tables, XLOOKUP, VLOOKUP, Power Query</p>
+        </div>
+
+        <div class="skill">
+            <strong>Visualization</strong>
+            <p>Power BI, Matplotlib, DAX</p>
+        </div>
+
+        <div class="skill">
+            <strong>Machine Learning</strong>
+            <p>Logistic Regression, Random Forest, XGBoost</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>End-to-End Sales Analytics</h3>
+
+        <p><strong>Tools:</strong> Python, SQL, Power BI</p>
+
+        <ul>
+            <li>Cleaned and analyzed sales data using Python and Pandas.</li>
+            <li>Performed exploratory data analysis across products, categories, customers, regions, and time periods.</li>
+            <li>Used SQL to analyze sales, profit, orders, customers, products, regions, discounts, and profitability.</li>
+            <li>Created KPI measures using DAX in Power BI.</li>
+            <li>Built a 4-page Power BI dashboard to analyze executive KPIs, sales, products, profitability, discounts, and customer performance.</li>
+        </ul>
+
+        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">
+            View on GitHub →
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>AI-Powered Customer Churn Prediction</h3>
+
+        <p><strong>Tools:</strong> Python, XGBoost, Power BI</p>
+
+        <ul>
+            <li>Analyzed customer data using Python, Pandas, and NumPy to identify churn patterns.</li>
+            <li>Built and compared Logistic Regression, Random Forest, XGBoost, and Tuned XGBoost models.</li>
+            <li>Achieved 80.77% accuracy with the Tuned XGBoost model.</li>
+            <li>Identified a 26.54% overall churn rate and analyzed high-risk customer segments.</li>
+            <li>Developed a Power BI dashboard to visualize churn rate, risk distribution, model performance, and customer segments.</li>
+        </ul>
+
+        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">
+            View on GitHub →
+        </a>
+    </div>
+
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="education-item">
+        <h3>Kakatiya Institute of Technology and Science, Warangal</h3>
+        <p>B.Tech in Computer Science and Engineering</p>
+        <p><strong>2022 – 2026</strong></p>
+        <p>GPA: 7.2</p>
+    </div>
+
+    <div class="education-item">
+        <h3>Krishnaveni Junior College, Warangal</h3>
+        <p>Intermediate (MPC)</p>
+        <p><strong>2020 – 2022</strong></p>
+        <p>Percentage: 87.6%</p>
+    </div>
+
+    <div class="education-item">
+        <h3>Tejaswi High School, Hanamkonda</h3>
+        <p><strong>2019 – 2020</strong></p>
+        <p>GPA: 9.2</p>
+    </div>
+
+</section>
+
+<section id="certificates">
+    <h2>Certificates</h2>
+
+    <div class="certificate">
+        <h3>Data Analytics Job Simulation — Quantium</h3>
+        <p>Forage</p>
+        <p>
+            Completed practical tasks in data preparation, customer analytics,
+            experimentation, uplift testing, and commercial application of analytics.
+        </p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <p>Email:
+        <a href="mailto:santhoshinireddyvannam@gmail.com">
+            santhoshinireddyvannam@gmail.com
+        </a>
+    </p>
+
+    <p>LinkedIn:
+        <a href="https://www.linkedin.com/in/santhoshini-annam-a68b85301" target="_blank">
+            View LinkedIn
+        </a>
+    </p>
+
+    <p>GitHub:
+        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">
+            View GitHub
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Annam Santhoshini | Data Analyst Portfolio</p>
+</footer>
+
+</body>
+</html>
