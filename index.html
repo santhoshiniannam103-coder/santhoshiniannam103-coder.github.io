@@ -111,8 +111,18 @@
             margin-bottom: 10px;
         }
 
+        /* Project bullet points */
         .project ul {
-            margin-left: 20px;
+            list-style-type: disc;
+            padding-left: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .project li {
+            display: list-item;
+            margin-bottom: 7px;
+            line-height: 1.5;
         }
 
         .project a {
@@ -130,6 +140,26 @@
             margin-bottom: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        /* Keep Education text normal and black */
+        .education-item h3 {
+            color: #222;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+
+        .education-item p {
+            color: #222;
+            text-decoration: none;
+            margin-bottom: 3px;
+        }
+
+        /* Keep certificate text normal */
+        .certificate h3,
+        .certificate p {
+            color: #222;
+            text-decoration: none;
         }
 
         .contact {
@@ -158,6 +188,14 @@
                 margin: 0 6px;
                 font-size: 14px;
             }
+
+            section {
+                padding: 40px 15px;
+            }
+
+            .project {
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -170,8 +208,13 @@
     <p>Python | SQL | Excel | Power BI | Data Visualization</p>
 
     <div class="buttons">
-        <a href="https://www.linkedin.com/in/santhoshini-annam-a68b85301" target="_blank">LinkedIn</a>
-        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/santhoshini-annam-a68b85301" target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/santhoshiniannam103-coder" target="_blank">
+            GitHub
+        </a>
     </div>
 </header>
 
@@ -186,6 +229,7 @@
 
 <section id="about" class="about">
     <h2>About Me</h2>
+
     <p>
         I am a B.Tech Computer Science graduate with a strong interest in
         Data Analytics. I enjoy working with data to identify patterns,
@@ -194,6 +238,7 @@
         Pandas, NumPy.
     </p>
 </section>
+
 
 <section id="skills">
     <h2>Skills</h2>
@@ -223,30 +268,39 @@
     </div>
 </section>
 
+
 <section id="projects">
     <h2>Projects</h2>
 
+
+    <!-- HR Analytics Dashboard -->
     <div class="project">
-    <h3>HR Analytics Dashboard</h3>
+        <h3>HR Analytics Dashboard</h3>
 
-    <p><strong>Tools:</strong> Power BI, DAX</p>
+        <p>
+            <strong>Tools:</strong> Power BI, DAX
+        </p>
 
-    <ul>
-        <li>Analyzed HR data to understand employee demographics, attrition, and workforce trends.</li>
-        <li>Created KPIs to track employee count, attrition, and key HR metrics.</li>
-        <li>Built interactive Power BI visualizations and dashboards for HR analysis.</li>
-        <li>Used DAX measures to calculate and analyze important HR performance indicators.</li>
-    </ul>
+        <ul>
+            <li>Analyzed HR data to understand employee demographics, attrition, and workforce trends.</li>
+            <li>Created KPIs to track employee count, attrition, and key HR metrics.</li>
+            <li>Built interactive Power BI visualizations and dashboards for HR analysis.</li>
+            <li>Used DAX measures to calculate and analyze important HR performance indicators.</li>
+        </ul>
 
-    <a href="https://github.com/santhoshiniannam103-coder/HR-Analytics-Dashboard" target="_blank">
-        View on GitHub →
-    </a>
-</div>
+        <a href="https://github.com/santhoshiniannam103-coder/HR-Analytics-Dashboard" target="_blank">
+            View on GitHub →
+        </a>
+    </div>
 
+
+    <!-- End-to-End Sales Analytics -->
     <div class="project">
         <h3>End-to-End Sales Analytics</h3>
 
-        <p><strong>Tools:</strong> Python, SQL, Power BI</p>
+        <p>
+            <strong>Tools:</strong> Python, SQL, Power BI
+        </p>
 
         <ul>
             <li>Cleaned and analyzed sales data using Python and Pandas.</li>
@@ -261,10 +315,14 @@
         </a>
     </div>
 
+
+    <!-- AI-Powered Customer Churn Prediction -->
     <div class="project">
         <h3>AI-Powered Customer Churn Prediction</h3>
 
-        <p><strong>Tools:</strong> Python, XGBoost, Power BI</p>
+        <p>
+            <strong>Tools:</strong> Python, XGBoost, Power BI
+        </p>
 
         <ul>
             <li>Analyzed customer data using Python, Pandas, and NumPy to identify churn patterns.</li>
@@ -279,45 +337,58 @@
         </a>
     </div>
 
+
+    <!-- Instagram Analytics Dashboard -->
     <div class="project">
-    <h3>Instagram Analytics Dashboard</h3>
+        <h3>Instagram Analytics Dashboard</h3>
 
-    <p><strong>Tools:</strong> Excel, Power BI, Power Query, DAX</p>
+        <p>
+            <strong>Tools:</strong> Excel, Power BI, Power Query, DAX
+        </p>
 
-    <ul>
-        <li>Cleaned and prepared Instagram analytics data using Excel.</li>
-        <li>Created Excel PivotTables to summarize posts, reach, impressions, and engagement.</li>
-        <li>Developed KPIs to analyze posts, followers, reach, impressions, and engagement rate.</li>
-        <li>Built an interactive one-page Power BI dashboard with charts and slicers.</li>
-        <li>Analyzed engagement trends, content categories, media types, and traffic sources.</li>
-    </ul>
+        <ul>
+            <li>Cleaned and prepared Instagram analytics data using Excel.</li>
+            <li>Created Excel PivotTables to summarize posts, reach, impressions, and engagement.</li>
+            <li>Developed KPIs to analyze posts, followers, reach, impressions, and engagement rate.</li>
+            <li>Built an interactive one-page Power BI dashboard with charts and slicers.</li>
+            <li>Analyzed engagement trends, content categories, media types, and traffic sources.</li>
+        </ul>
 
-    <a href="https://github.com/santhoshiniannam103-coder/Instagram-analytics-dashboard-excel-powerbi" target="_blank">
-        View on GitHub →
-    </a>
-</div>
+        <a href="https://github.com/santhoshiniannam103-coder/Instagram-analytics-dashboard-excel-powerbi" target="_blank">
+            View on GitHub →
+        </a>
+    </div>
 
+
+    <!-- AI Powered Business Intelligence Analyst -->
     <div class="project">
-    <h3>AI Powered Business Intelligence Analyst</h3>
+        <h3>AI Powered Business Intelligence Analyst</h3>
 
-    <p><strong>Tools:</strong> Python, Power BI, Power Query, DAX, Gemini API</p>
+        <p>
+            <strong>Tools:</strong> Python, Power BI, Power Query, DAX, Gemini API
+        </p>
 
-    <ul class="project-points">
-        <li>Cleaned and analyzed Amazon sales data using Python, Pandas, and NumPy to derive key business insights.</li>
-        <li>Developed 9 analytical tools for KPIs, revenue by category, brand, product, month, city, state, payment method, and order status.</li>
-        <li>Integrated the Gemini API to build an AI Data Analyst Agent capable of answering natural-language questions using real sales data.</li>
-        <li>Created an interactive AI chatbot that allows users to ask business questions and receive data-driven insights.</li>
-        <li>Built a 3-page Power BI dashboard covering executive overview, customer & location analysis, and product & category analysis.</li>
-        <li>Implemented KPI and AI-response validation to ensure numerical results match the underlying dataset and prevent unsupported figures.</li>
-    </ul>
+        <ul>
+            <li>Cleaned and analyzed Amazon sales data using Python, Pandas, and NumPy to derive key business insights.</li>
 
-    <a href="https://github.com/santhoshiniannam103-coder/AI-Powered-Business-Intelligence-Analyst" target="_blank">
-        View on GitHub →
-    </a>
-</div>
-        
+            <li>Developed 9 analytical tools for KPIs, revenue by category, brand, product, month, city, state, payment method, and order status.</li>
+
+            <li>Integrated the Gemini API to build an AI Data Analyst Agent capable of answering natural-language questions using real sales data.</li>
+
+            <li>Created an interactive AI chatbot that allows users to ask business questions and receive data-driven insights.</li>
+
+            <li>Built a 3-page Power BI dashboard covering executive overview, customer & location analysis, and product & category analysis.</li>
+
+            <li>Implemented KPI and AI-response validation to ensure numerical results match the underlying dataset and prevent unsupported figures.</li>
+        </ul>
+
+        <a href="https://github.com/santhoshiniannam103-coder/AI-Powered-Business-Intelligence-Analyst" target="_blank">
+            View on GitHub →
+        </a>
+    </div>
 
 </section>
+
 
 <section id="education">
     <h2>Education</h2>
@@ -344,15 +415,21 @@
 
 </section>
 
+
 <section id="certificates">
     <h2>Certificates</h2>
 
     <div class="certificate">
-        <h3>Data Analytics With AI — QEdge TEchnologies, Hyderabad  — 2026 </h3>
+        <h3>
+            Data Analytics With AI — QEdge Technologies, Hyderabad — 2026
+        </h3>
     </div>
+
     <div class="certificate">
         <h3>Data Analytics Job Simulation — Quantium</h3>
+
         <p>Forage</p>
+
         <p>
             Completed practical tasks in data preparation, customer analytics,
             experimentation, uplift testing, and commercial application of analytics.
@@ -361,27 +438,33 @@
 
 </section>
 
+
 <section id="contact" class="contact">
     <h2>Contact</h2>
 
-    <p>Email:
-        <a href="mailto:santhoshinireddyvannam@gmail.com">
+    <p>
+        Email:
+        <a href="mailto:santhoshinireddyannam@gmail.com">
             santhoshinireddyannam@gmail.com
         </a>
     </p>
 
-    <p>LinkedIn:
+    <p>
+        LinkedIn:
         <a href="https://www.linkedin.com/in/santhoshini-annam-a68b85301" target="_blank">
             View LinkedIn
         </a>
     </p>
 
-    <p>GitHub:
+    <p>
+        GitHub:
         <a href="https://github.com/santhoshiniannam103-coder" target="_blank">
             View GitHub
         </a>
     </p>
+
 </section>
+
 
 <footer>
     <p>© 2026 Annam Santhoshini | Data Analyst Portfolio</p>
